@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 font-family:'Tektur', cursive;
 
+
+}
+body{
+    background-color: #24176b;
 }
 .caixa-principal {
     height: 100vh;
@@ -68,6 +72,10 @@ li:hover {
     color:#ff614d;
     transition: 0.8s;
 }
+li a{
+    color: inherit;
+    text-decoration: none;
+}
 section {
     height: 100vh;
     width: 100%;
@@ -78,14 +86,20 @@ section {
     
 
 }
+#inverter {
+  transform: scaleX(-1);
+
+}
 section img {
 
     height: 300px;
-    border-radius: 100%;
+    border-radius: 100px;
     border:2px solid #ffffff;
     margin-right: 70px;
     margin-left: -96px;
     margin-top: 50px;
+    padding-left: 20px;
+    background-color:rgb(29, 24, 22)
 
     
 
@@ -93,25 +107,30 @@ section img {
 section div h2 {
     color:#836cef;
     font-size: 50px;
-    margin-left:10%;
+    margin-left:20%;
+    margin-bottom: 100px;
+    
 
 }
 section div p {
     color:#c5c8c8;
     font-size: 20px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+}
+span{
+    color:#fa5760
 }
 section button{
     color:#fa5760;
     background:#ffffff;
     height: 40px;
-    width: 170px;
+    width: 850px;
     font-size: 19px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-left: 100px;
+    margin-bottom: 130px;
 }
 section button:hover {
     color: whitesmoke;
@@ -126,13 +145,104 @@ section div p{
     
 }
 
+
+
 .pag3 {
     height: 100vh;
     width: 100%;
-    background-color: #3e0043;
+    background-color: #24176b;
 }
-.pag4 {
-    height: 100vh;
-    width: 100%;
-    background-color: #df1ced;
+.pag3 h2{
+    color: #836cef;
+    font-size: 50px;
+   text-align: center;
+}
+.card p{
+    font-size: 10px;
+    color: #c5c8c8;
+    
+}
+.card button{
+    font-size: 10px;
+    background-color:whitesmoke;
+    color: #fa5760;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 22px;
+    border: none;
+    
+}
+.card button:hover{
+    color: whitesmoke;
+    background:#fa5760;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.card{
+    
+    background-color:#1b1151;
+    height: 265px;
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 20px;
+    margin-top: 145px;
+    padding: 20px 30px;
+    text-align: center;
+    border: solid 1px #ffffff;
+
+}
+.card img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    
+}
+.card h5{
+    color:#ffffff;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.projetosfeitos {
+display: flex;
+justify-content: space-evenly;
+}
+.card:hover {
+    transition: 0.2s;
+    transform: scale(1.3);
+    box-shadow: 2px 0.2px 26px 1px  rgba(170, 209, 247, 0.5);
+    
+
+}
+footer{
+    background-color: #24176b;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+footer h5{
+    color:#c5c8c8;
+    font-size: 10px;
+    margin-top: 100px;
+    
+
+}
+footer p{
+    color:#ffffff;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    
+}
+.social img{
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 50px;   
+}
+.social img:hover{
+    transition: 0.6s;
+    transform: scale(1.4);
+    
 }
