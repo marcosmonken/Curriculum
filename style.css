@@ -117,10 +117,7 @@ section div p {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-<<<<<<< HEAD
     line-height: 8mm;
-=======
->>>>>>> origin/main
 }
 span{
     color:#fa5760
@@ -248,5 +245,18 @@ footer p{
 .social img:hover{
     transition: 0.6s;
     transform: scale(1.4);
+    
+}
+.teste{
+
+    height: 80vh;
+    width: 100%;
+    background-color: greenyellow;
+
+}
+.teste2 {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
     
 }
